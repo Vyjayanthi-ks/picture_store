@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Picture Store</title>
+    <style>.hidden {
+        display: none;
+      }
+      .picture-grid{
+        display:flex;
+        gap:20px;
+      }
+      body {
+        background-image: url('image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+      </style>
+  </head>
+  <body>
+    <h1>PICTURE STORE</h1>
+
+    <div class="picture-grid">
+      <div class="picture">
+        <img src="https://picsum.photos/280" alt="Picture 1" /> <br>
+        <button class="buy-button">Buy</button> 
+      </div>
+      <div class="picture">
+        <img src="https://picsum.photos/281" alt="Picture 2" /> <br>
+        <button class="buy-button">Buy</button> 
+      </div>
+      <div class="picture">
+        <img src="https://picsum.photos/282" alt="Picture 3" /> <br>
+        <button class="buy-button">Buy</button> 
+      </div>
+      <div class="picture">
+        <img src="https://picsum.photos/283" alt="Picture 4" /> <br>
+        <button class="buy-button">Buy</button> 
+      </div>
+      <div class="picture">
+        <img src="https://picsum.photos/284" alt="Picture 5" /> <br>
+        <button class="buy-button">Buy</button> 
+      </div>
+    </div>
+<br>
+
+    <div class="shopping-cart">
+      <h2>SHOPPING CART</h2>
+      <ul></ul>
+      <button id="pay-button">Pay</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
